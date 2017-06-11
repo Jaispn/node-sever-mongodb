@@ -1,0 +1,27 @@
+{
+  "name": "athena",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --port 3030"
+  },
+  "author": "jai",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.15.3",
+    "file-loader": "^0.11.1",
+    "git": "^0.1.5",
+    "json-loader": "^0.5.4",
+    "node-sass": "^4.5.3",
+    "path": "^0.12.7",
+    "body-parser": "*",
+    "lodash": "*",
+    "bluebird" : "*"
+  },
+  "devDependencies": {
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "mongoose": "^4.10.0"
+  }
+}
